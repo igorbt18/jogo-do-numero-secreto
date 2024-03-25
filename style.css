@@ -122,6 +122,11 @@ button:disabled {
 
 @media screen and (max-width: 1250px) {
 
+    .container__conteudo{
+        height: 100%;
+        width: 100%;
+
+    }
     h1 {
         font-size: 50px;
     }
@@ -133,6 +138,7 @@ button:disabled {
 
     .texto__paragrafo {
         font-size: 24px;
+        padding: 10px;
     }
 
     .container__imagem-pessoa {
@@ -145,6 +151,6 @@ button:disabled {
     }
 
     .container__informacoes {
-        padding: 1rem
+        padding: 3rem
     }
 }
